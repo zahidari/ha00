@@ -37,8 +37,8 @@ public class Komplex {
 
     @Override
     public String toString(){
-
-        return String.format("%.1f, %.1fi", x,y);
+        return x +" + "+ y + "i";
+        //return String.format("%.1f, %.1fi", x,y);
     }
 
     public double getBetrag(){
